@@ -14,13 +14,17 @@ Python 3 ( = Anaconda 3) : https://www.anaconda.com/distribution/#download-secti
 
 # How to use
 
+<pre><code>
 pip install icrawler xlwt six
 python skin.py
+</code></pre>
 
 or
 
+<pre><code>
 pip3 install icrawler xlwt six
 python3 skin.py
+</code></pre>
 
 Check "url_filepath.xls" and "/images" folder
 
@@ -28,6 +32,6 @@ Check "url_filepath.xls" and "/images" folder
 # Result (2019-10-10)
 
 A total of 3034 images are availalbe in 2019-10-10. 
-https://github.com/whria78/skinimagecrawler/example2019
+https://github.com/whria78/skinimagecrawler/blob/master/exmaple2019
 
 
