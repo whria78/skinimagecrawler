@@ -27,6 +27,18 @@ python3 skin.py
 Check "url_filepath.xls" and "/images" folder
 
 
+## Options
+<pre><code>
+max_crawling_num=1000
+max_thread=4
+prohibit_site=['dermnet.com']  # dermnet.com prohibits use of images for research, commercial, personal, or non-commercial use.
+crawl_melanoma_only=True
+</code></pre>
+
+1. By default, this script download melanoma image. If you want to download all kinds of images, modify line 75.
+2. If website does not allow to use of image even for personal, non-commercial, and reserach purpose, modify line 74.
+
+
 ## Result (2019-10-10)
 
 A total of 3034 images are availalbe in 2019-10-10. 
