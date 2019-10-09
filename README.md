@@ -31,7 +31,7 @@ Check "url_filepath.xls" and "/images" folder
 <pre><code>
 max_crawling_num=1000
 max_thread=4
-prohibit_site=['dermnet.com']  # dermnet.com prohibits use of images for research, commercial, personal, or non-commercial use.
+prohibit_site=['dermnet.com'] 
 crawl_melanoma_only=True
 </code></pre>
 
