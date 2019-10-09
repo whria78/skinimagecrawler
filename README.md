@@ -35,8 +35,8 @@ prohibit_site=['dermnet.com']
 crawl_melanoma_only=True
 </code></pre>
 
-1. By default, this script download melanoma image. If you want to download all kinds of images, modify line 75.
-2. If website does not allow to use of image even for personal, non-commercial, and reserach purpose, modify line 74.
+1. By default, this script download melanoma images. If you want to download all kinds of skin disorders, modify line 75.
+2. If website does not allow the use of image even for personal, non-commercial, and reserach purpose, modify line 74.
 
 
 ## Result (2019-10-10)
