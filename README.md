@@ -30,6 +30,5 @@ Check "url_filepath.xls" and "/images" folder
 ## Result (2019-10-10)
 
 A total of 3034 images are availalbe in 2019-10-10. 
-https://github.com/whria78/skinimagecrawler/blob/master/result_20191010.xls
-
+https://github.com/whria78/skinimagecrawler/blob/master/result_20191010.csv
 
