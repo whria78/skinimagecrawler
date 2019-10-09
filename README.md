@@ -1,7 +1,7 @@
 # Skin Image Crawler
 
 This is Skin Image Crawler script written in Python 3.
-This script help to download dermatologic images from google.com and bing.com using 214 keywords.
+This script help to download dermatologic images from google.com and bing.com using 214 keywords of various languages.
 
 Han Seung Seog
 2019-10-10
@@ -9,7 +9,7 @@ Han Seung Seog
 
 # Requirement
 
-Python 3 ( = Anaconda 3) : https://www.anaconda.com/distribution/#download-section
+Python 3 (Anaconda 3) : https://www.anaconda.com/distribution/#download-section
 
 
 # How to use
