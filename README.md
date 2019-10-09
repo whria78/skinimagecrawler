@@ -7,12 +7,12 @@ Han Seung Seog
 2019-10-10
 
 
-# Requirement
+## Requirement
 
 Python 3 (Anaconda 3) : https://www.anaconda.com/distribution/#download-section
 
 
-# How to use
+## How to use
 
 <pre><code>
 pip install icrawler xlwt six
@@ -29,7 +29,7 @@ python3 skin.py
 Check "url_filepath.xls" and "/images" folder
 
 
-# Result (2019-10-10)
+## Result (2019-10-10)
 
 A total of 3034 images are availalbe in 2019-10-10. 
 https://github.com/whria78/skinimagecrawler/blob/master/result_20191010.xls
