@@ -2,8 +2,7 @@
 
 This is Skin Image Crawler script written in Python 3.
 This script help to download dermatologic images from google.com and bing.com using 214 keywords of various languages.
-It is developed by Han Seung Seog to collect training images for neural networks. 
-
+It is developed to collect training images for deep learning.
 
 ## Requirement
 
