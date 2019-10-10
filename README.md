@@ -13,6 +13,7 @@ Python 3 (Anaconda 3) : https://www.anaconda.com/distribution/#download-section
 
 <pre><code>
 pip install icrawler xlwt six
+
 python skin.py
 </code></pre>
 
@@ -20,6 +21,7 @@ or
 
 <pre><code>
 pip3 install icrawler xlwt six
+
 python3 skin.py
 </code></pre>
 
