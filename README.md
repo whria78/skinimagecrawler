@@ -1,7 +1,7 @@
 # Skin Image Crawler
 
 This is Skin Image Crawler script written in Python 3.
-This script helps to download dermatologic images from google.com and bing.com using 214 keywords of various languages. The keywords of Korean was validated and the rests were translated by Google translator (http://translate.google.com). 
+This script helps to download dermatologic images from google.com and bing.com using 214 keywords of various languages. The keywords in Korean was validated. The rest keywords were translated by Google translator (http://translate.google.com). 
 It was developed to collect training images for deep learning.
 
 ## Requirement
