@@ -42,7 +42,7 @@ crawl_melanoma_only=True
 
 ## Result (2019-10-10)
 
-A total of 3034 images are available in 2019-10-10. 
+With a single keyword "melanoma", a total of 3034 images are available in 2019-10-10. 
 #### https://github.com/whria78/skinimagecrawler/blob/master/result_20191010.csv
 
 There are some duplicated images with different resolution. Try to use Duplicate Photo Finder (https://www.duplicatephotocleaner.com) or other applications to remove the duplicate images.
