@@ -1,8 +1,10 @@
 # Skin Image Crawler
 
-This is Skin Image Crawler script written in Python 3.
-This script helps to download dermatologic images from google.com and bing.com using 214 keywords of various languages. The keywords in Korean was validated, however, the rest keywords were translated by Google translator (http://translate.google.com). 
+This is Skin Image Crawler script written in Python 3. 
+
 It was developed to collect training images for deep learning by Han Seung Seog (whria78@gmail.com).
+This script helps to download dermatologic images from google.com and bing.com using 214 keywords of various languages. The keywords in Korean were validated by Han, however, the rest keywords were translated by Google Translator (http://translate.google.com). 
+
 
 ## Requirement
 
@@ -17,6 +19,8 @@ pip install icrawler xlwt six
 python skin.py melanoma
 python skin.py "acanthosis nigricans"
 python skin.py -l
+python skin.py 0
+cf) ABNOM = 0
 </code></pre>
 
 or
@@ -27,6 +31,8 @@ pip3 install icrawler xlwt six
 python3 skin.py melanoma
 python3 skin.py "acanthosis nigricans"
 python3 skin.py -l
+python3 skin.py 0
+cf) ABNOM = 0
 </code></pre>
 
 ## Check the result
@@ -49,7 +55,7 @@ prohibit_site=['dermnet.com']
 
 ## Result (2019-10-10)
 
-With a single keyword "melanoma", a total of 3034 images are available in 2019-10-10. 
+With a single keyword "melanoma", over 5000 images are available in 2019-10-10. 
 #### https://github.com/whria78/skinimagecrawler/blob/master/result_20191010.csv
 
-There are some duplicated images with different resolution. Try to use Duplicate Photo Finder (https://www.duplicatephotocleaner.com) or other applications to remove the duplicate images.
+There are some duplicated images with different resolution. Try to use Duplicate Photo Finder (https://www.duplicatephotocleaner.com) or other algorithm (resize tiny, and convert to binary, and compare the binary) to remove the duplicate images.
