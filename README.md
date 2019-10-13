@@ -33,6 +33,7 @@ python3 skin.py -l
 Check the result at "url_filepath.xls" and "/images".
 
 This script collect with English keyword first, and then with other languages. Images with the same file size are discarded.
+
 For the example of "melanoma", check "melanoma_google" folder first. And then check "melanoma_bing". And chek results with other languages later. 
 
 
