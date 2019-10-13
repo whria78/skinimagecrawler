@@ -14,7 +14,9 @@ Python 3 (Anaconda 3) : https://www.anaconda.com/distribution/#download-section
 <pre><code>
 pip install icrawler xlwt six
 
-python skin.py
+python skin.py melanoma
+python skin.py "acanthosis nigricans"
+python skin.py -l
 </code></pre>
 
 or
@@ -22,7 +24,9 @@ or
 <pre><code>
 pip3 install icrawler xlwt six
 
-python3 skin.py
+python3 skin.py melanoma
+python3 skin.py "acanthosis nigricans"
+python3 skin.py -l
 </code></pre>
 
 Check the result at "url_filepath.xls" and "/images".
@@ -33,11 +37,9 @@ Check the result at "url_filepath.xls" and "/images".
 max_crawling_num=1000
 max_thread=4
 prohibit_site=['dermnet.com'] 
-crawl_melanoma_only=True
 </code></pre>
 
-1. By default, this script downloads melanoma images. If you want to download all kinds of skin disorders, modify line 75 (crawl_melanoma_only).
-2. If website does not allow the use of image even for personal, non-commercial, and reserach purpose, modify line 74 (prohibit_site).
+*** If website does not allow the use of image even for personal, non-commercial, and reserach purpose, modify line 15 (prohibit_site).
 
 
 ## Result (2019-10-10)
