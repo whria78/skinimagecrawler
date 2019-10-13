@@ -56,7 +56,7 @@ prohibit_site=['dermnet.com']
 ## Result (2019-10-10)
 
 With a single keyword "melanoma", over 9000 images are available in 2019-10-10. Although there may be hundreds clinical images of melanoma, there are a lot of non-clinical photographs. All images should be annotated manually based on image findings. 
-#### https://github.com/whria78/skinimagecrawler/blob/master/url_filepath_melanoma_20191013.csv
+#### https://raw.githubusercontent.com/whria78/skinimagecrawler/master/url_filepath_melanoma_20191013.csv
 
 There are some duplicated images with different resolution. Try to use Duplicate Photo Finder (https://www.duplicatephotocleaner.com) or other algorithm (resize tiny, and convert to binary, and compare the binary) to remove the duplicate images.
 
