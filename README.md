@@ -52,7 +52,7 @@ use_Other_Lang=False
 prohibit_site=['dermnet.com'] 
 </code></pre>
 
-*** If website does not allow the use of image even for personal, non-commercial, and reserach purpose, modify line 16 (prohibit_site).
+*** If website does not allow the use of images for any purpose, add the site to the option (prohibit_site).
 
 
 ## Result (2019-10-31)
